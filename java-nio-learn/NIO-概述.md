@@ -4,7 +4,9 @@ JAVA NIO的核心组成部分：
 * Selectors
 ## Channel 和 Buffer
 基本上，所有的 IO 在NIO 中都从一个Channel 开始。Channel 有点象流。 数据可以从Channel读到Buffer中，也可以从Buffer 写到Channel中。
+
 ![ChannelAndBuffer](https://raw.githubusercontent.com/benkang-chen/java-NIO/master/picture/ChannelAndBuffer.png)
+
 Channel和Buffer有好几种类型。下面是JAVA NIO中的一些主要Channel的实现：
 * FileChannel
 * DatagramChannel
